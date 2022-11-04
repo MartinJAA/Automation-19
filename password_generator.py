@@ -11,9 +11,6 @@ number = "0123456789"
 len_password = random.randint(9, 16)            #chars
 index_capital_letter = random.randint(1,4)
 index_number = random.randint(5,8)
-print(len_password)
-print(index_capital_letter)
-print(index_number)
 
 for chars in range(len_password):
     if index_capital_letter == chars:
